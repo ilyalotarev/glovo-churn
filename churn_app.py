@@ -12,7 +12,7 @@ custservice_contacts = st.slider("Customer service contacts", 0, 10, 2)
 friends_on_glovo = st.slider("Friends on Glovo", 0, 10, 5)
 cancelled_orders = st.slider("Cancelled orders", 0, 10, 1)
 orders_per_month = st.slider("Orders per month", 1, 10, 8)
-num_categories = st.slider("Food categories ordered", 1, 5, 3)
+num_categories = st.slider("Goods categories ordered", 1, 5, 3)
 
 user = pd.DataFrame([{
     'orders_per_month': orders_per_month,
